@@ -19,18 +19,5 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  # a = array.index("cheddar")
-  # b = array.index("gouda")
-  # c = array.index("camembert")
-  # if b && c < a
-  #   p "cheddar"
-  # elsif a && c < b
-  #   p "gouda"
-  # elsif b && a < c
-  #   p "camembert"
-  # else
-  #   p nil
-  # end
-  
   p array.find { |w| w == "cheddar" || w == "gouda" || w == "camembert"}
 end
